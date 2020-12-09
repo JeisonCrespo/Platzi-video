@@ -10,7 +10,6 @@ html {
 
 body {
   background-color: #ab99ff;
-  overflow: hidden;
 }
 
 .header {
@@ -97,6 +96,11 @@ body {
   position: relative;
 }
 
+.carousel h2 {
+  font-size: 2.4rem;
+  color: white;
+}
+
 .carousel__container {
   white-space: nowrap;
   margin: 70px 0;
@@ -165,4 +169,29 @@ body {
 .carousel-item__details:hover {
   opacity: 1;
   color: white;
+}
+
+.footer {
+  background-color: #ab99ff;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.footer a {
+  color: white;
+  cursor: pointer;
+  padding-left: 30px;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
